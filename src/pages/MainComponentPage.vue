@@ -1,11 +1,12 @@
 <template>
-  <h6></h6>
+  <q-page padding>
+    <h6>This is MainComponentPage</h6>
+  </q-page>
 </template>
 <script>
-import { defineComponent } from "@vue/composition-api";
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "MyComponent",
-  
+  name: "MainComponentPage",
 });
 </script>
