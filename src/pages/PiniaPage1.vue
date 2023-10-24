@@ -4,7 +4,7 @@
       <h5>This is Page 1</h5>
     </div>
     <div>
-      <h2>My counter: {{ data.mystore }}</h2>
+      <h2>My counter: {{ mystore.counter }}</h2>
     </div>
   </q-page>
 </template>
